@@ -35,6 +35,9 @@ end
 gem 'react-rails', github: 'reactjs/react-rails', branch: 'master'
 gem 'showdown-rails'
 
+gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
