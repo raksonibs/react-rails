@@ -124,8 +124,8 @@ var CommentForm = React.createClass({
   }
 });
 
-$(function() {
-  var $content = $('#content');
+$(document).on("page:change", function() {
+  var $content = $("#content");
   if ($content.length > 0) {
     React.renderComponent(
       <CommentBox url="comments.json" pollInterval={2000} />,
